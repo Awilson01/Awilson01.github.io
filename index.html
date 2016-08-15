@@ -11,8 +11,8 @@
      background-size: 2500px 2500px;}
     </style>
  </head>
-<center> <font size=50 color=white <head> <I> <B>Hello!</B></I> </head> </font></center> <font size=6.5 color=white <I>I'm Anya Wilson<br></font>
-<img src="https://s-media-cache-ak0.pinimg.com/favicons/778ea150c7da8e000cbb270c96a57660c44728dc1712cb254e5170ef.gif?86a34b41c5575c32dd77e6db0e0fb8c2" width=300 height=500/>
+<center> <font size=50 color=white <head> <I> <B>Hello!</B></I> </head> </font> <font size=6.5 color=white <br> <I><br>I'm Anya Wilson<br></font> 
+<img src="https://s-media-cache-ak0.pinimg.com/favicons/778ea150c7da8e000cbb270c96a57660c44728dc1712cb254e5170ef.gif?86a34b41c5575c32dd77e6db0e0fb8c2" width=300 height=500/></center>
 
 
 <center> <font size=8 color=white h1><U><B> <br>My Skills?</B></U></h1> </font> </center>
@@ -60,8 +60,40 @@ function carousel() {
 
 <center><font size= 5 color=white <P><I> <b><br>I want to become a graphic designer<br> for now but i'm still in highschool so that may change<br> but for now im pretty stuck on graphic design.<br> I also want to get into to making video games as a hobby in college.<br>I do have plans on going to college but im not sure <br>which one at the moment.</b></I></P> </center>
 <center><OL>
-    <P>To view some of my work</P>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Wattpad_logo.svg/1024px-Wattpad_logo.svg.png" width=500 height=200 /> 
+    <P>To view some of my work</P><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">my work</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="https://a.wattpad.com/cover/36539110-176-k915191.jpg" width=300 height=300">
+  <img class="mySlides" src="https://a.wattpad.com/cover/31082426-176-k878924.jpg" width=300 height=300">
+  <img class="mySlides" src="https://a.wattpad.com/cover/78752817-208-k829660.jpg" width=300 height=300">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+     
     <a href=https://www.wattpad.com/story/36539110-bad-boy-is-my-problem<Li><br>My book:Bad boy is my problem</Li> </a> <br>
     <a href=https://www.wattpad.com/story/31082426-miss-rue<Li>My book:Miss Rue</Li> </a> <br>
     <a href=https://www.wattpad.com/story/78752817-how-to-love-twins<Li>My book: (ongoing) Falling for twins</Li> </a>
